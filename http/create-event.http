@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RlMkBnbWFpbC5jb20iLCJleHAiOjE3MDkyNTU1ODMsInVzZXJJZCI6Mn0.OhzQn7DRC4dnCC7FmZNoJYzIiARDxsJEHgdBn7lvWiw
+
+{
+    "name": "evento legal",
+    "description": "apenas para maiores de idade",
+    "location": "SP",
+    "dateTime": "2025-01-01T:15:30:00.000Z"
+}
